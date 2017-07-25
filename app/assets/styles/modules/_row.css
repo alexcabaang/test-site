@@ -1,8 +1,20 @@
 .row {
    /* background-color: yellow;*/
 
+    &--t-padding {
+        padding-top: 80px;
+    }
+
     &--gutters {
         margin-right: -65px;
+    }
+
+    &--gutters-small{
+        margin-right: -45px;
+    }
+
+    &--gutters-small > div {
+        padding-right: 45px;
     }
 
     &--gutters-large {
@@ -50,9 +62,6 @@
     }
 
     @mixin clearfix;
-
-
-
 
 
     &__b-margin-until-medium {
