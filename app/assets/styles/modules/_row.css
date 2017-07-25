@@ -69,6 +69,16 @@
     }
 
 
+    &--equal-height-at-medium {
+        @mixin atMedium {
+            display: flex;
+        }
+        & > div {
+            float: none;
+            display: flex;
+        }
+    }
+
 /*    @mixin atMedium {
         &__b-margin-until-medium {
             margin-bottom: 0;
