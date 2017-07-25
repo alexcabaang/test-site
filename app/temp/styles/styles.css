@@ -861,8 +861,9 @@ a {
 }
 
 .testimonial__photo {
-		border-radius: 30px;
+		border-radius: 80px;
 		overflow: hidden;
 		width: 160px;
 		height: 160px;
+		margin: -5 auto 0 auto;
 	}
