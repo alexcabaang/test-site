@@ -1,4 +1,10 @@
-var $= require('jquery');
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();
+
+
+/*
+//var $= require('jquery');
 //var Person = require('./modules/Person');
 import Person from './modules/Person';
 
@@ -14,7 +20,5 @@ class Adult extends Person {
 var jane = new Adult("Jane Smith", "orange");
 jane.greet();
 jane.payTaxes();
+*/
 
-
-
-// $("h1").remove();
