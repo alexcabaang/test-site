@@ -36,6 +36,10 @@
 		@mixin atMedium {
 			display: block;
 		}
+
+		&--is-visible {
+			display: block;
+		}
 	}
 
 	&__menu-icon {
