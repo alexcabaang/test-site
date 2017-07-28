@@ -8,7 +8,7 @@ var mobileMenu = new MobileMenu();
 //var Person = require('./modules/Person');
 import Person from './modules/Person';
 
-var john = new Person("Alicia Cabaang", "blue");
+var john = new Person("AlexCabaang", "blue");
 john.greet();
 
 class Adult extends Person {
