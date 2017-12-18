@@ -1,0 +1,12 @@
+/*  git new repository*/
+1. git init				Initialize the local folder
+2. 				Create new empty repository  in gitHub
+3. git remote add origin https://github.com/alexcabaang/myPersonalSite.git
+				This will link your new reposity in the server to your local folder
+4. git add -A			This will stage your file prior to commit
+5.  git commit -m  'Notes here...'	Commit will save but not yet update the server
+5. git push -u origin master		Finally saves or update your local folder to your new repository
+6. git clone https://github.com/alexcabaang/test-site.git
+
+---------
+git clone https://github.com/alexcabaang/test-site.git
